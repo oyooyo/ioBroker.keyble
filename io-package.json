@@ -1,0 +1,50 @@
+{
+	"common": {
+		"name": "keyble",
+		"version": "0.1.0",
+		"news": {
+			"0.1.0": {
+				"en": "initial adapter",
+				"de": "Initiale Version"
+			}
+		},
+	"title": "eqiva Bluetooth Smart Lock",
+		"titleLang": {
+			"en": "eqiva Bluetooth Smart Lock",
+			"de": "eqiva Bluetooth-Türschlossantrieb"
+		},
+		"desc": {
+			"en": "Control eQ-3 eqiva Bluetooth smart door locks",
+			"de": "eQ-3 eqiva Bluetooth-Türschlossantriebe steuern"
+		},
+		"authors": [
+			"oyooyo <joachim.schaefer@gmx.net>"
+		],
+		"docs": {
+			"en": "docs/en/admin.md",
+			"de": "docs/de/admin.md"
+		},
+		"platform": "Javascript/Node.js",
+		"mode": "daemon",
+		"icon": "keyble.png",
+		"materialize": true,
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/oyooyo/ioBroker.keyble/master/admin/keyble.png",
+		"keywords": ["keyble", "vis", "GUI", "graphical", "scada"],
+		"readme": "https://github.com/oyooyo/ioBroker.keyble/blob/master/README.md",
+		"loglevel": "info",
+		"type": "general",
+		"license": "MIT",
+		"messagebox": false,
+		"restartAdapters": ["vis"]
+	},
+	"native": {
+		"mac_address": "01:23:45:67:89:ab",
+		"user_id": 2,
+		"user_key": "0123456789abcdef0123456789abcdef",
+		"auto_disconnect_time": 15,
+		"status_update_time": 600
+	},
+	"objects": [
+	]
+}
