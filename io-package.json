@@ -1,11 +1,15 @@
 {
 	"common": {
 		"name": "keyble",
-		"version": "0.1.0",
+		"version": "0.1.1",
 		"news": {
 			"0.1.0": {
 				"en": "initial adapter",
 				"de": "Initiale Version"
+			},
+			"0.1.1": {
+				"en": "Removed package.json",
+				"de": "package.json entfernt"
 			}
 		},
 	"title": "eqiva Bluetooth Smart Lock",
