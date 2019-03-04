@@ -21,3 +21,4 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.9
+      - libudev-dev
