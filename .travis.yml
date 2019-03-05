@@ -21,4 +21,5 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.9
+      - libbluetooth-dev
       - libudev-dev
