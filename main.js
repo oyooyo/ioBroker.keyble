@@ -2,7 +2,7 @@
 var adapter, initialize, key_ble, keyble, on_command_state, terminate, utils;
 
 // Get common adapter utils
-utils = require(`${__dirname}/lib/utils`);
+utils = require('@iobroker/adapter-core');
 
 // Create Adapter instance
 adapter = new utils.Adapter('keyble');

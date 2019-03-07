@@ -30,7 +30,8 @@
     "url": "https://github.com/oyooyo/ioBroker.keyble"
   },
   "dependencies": {
-    "keyble": "^0.1.9"
+    "keyble": "^0.1.9",
+    "@iobroker/adapter-core": "^1.0.3"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
